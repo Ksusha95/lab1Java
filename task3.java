@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 public class task3 {
 	
-		public static void main (String [] args)  {
+	public static void main (String [] args)  {
 		
 		Scanner in = new Scanner(System.in);	
 		double length = 0;	//Длина, с которой будем производить манипуляции
@@ -42,15 +42,13 @@ public class task3 {
 		catch (InputMismatchException ex) {		//Блок обработки исключения
 			System.out.println ("\nНе является числом");
 		}
-		
-		
 	}
 		
-		static double inch(double length) {	//Функция, вычисляющая, сколько дюймов в заданной длине
+	static double inch(double length) {	//Функция, вычисляющая, сколько дюймов в заданной длине
 			
-			length /= 2.54;		//В одном дюйме 2.54 см
+		length /= 2.54;		//В одном дюйме 2.54 см
 			
-			return length;
+		return length;
 			
-		}		
+	}		
 }
